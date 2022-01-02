@@ -1,0 +1,28 @@
+<head>
+<style type="text/css">
+	.cen a { /*стиль по умолчанию для тега <a> в блоке cen*/
+	стиль для link1;
+	}
+	.cen a.class2 {
+	стиль для link2;
+	}
+	.cen .inblock a {
+	стиль для link3;
+	}
+	.cen .inblock a.class4 {
+	стиль для link4;
+	}
+</style>
+</head>
+<body>
+<div class="cen">
+...
+	<a href="">LINK_1</a>
+	<a class="class_2" href="">LINK_2</a>
+	<div class="inblock">
+		<a href="">LINK_3</a>
+		<a class="class_4" href="">LINK_4</a>
+	</div>
+...
+</div>
+</body>
