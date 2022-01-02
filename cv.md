@@ -14,4 +14,3 @@
 * information technologies in culture
 ## Languages
 * russian - native speaker.
- 
