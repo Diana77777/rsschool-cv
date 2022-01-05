@@ -1,22 +1,202 @@
-
-<!doctype html>
- 
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
- 
-  <title>The HTML5 Herald</title>
-  <meta name="description" content="The HTML5 Herald">
-  <meta name="author" content="SitePoint">
- 
-  <link rel="stylesheet" href="css/styles.css?v=1.0">
- 
-  <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-  <![endif]-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles/arta.min.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.min.css">
+    <title>CV</title>
 </head>
- 
 <body>
-  <script src="js/scripts.js"></script>
+    <header class="header">
+        <div class="container">
+            <div class="header__container">
+                <div class="header__photo">
+                    <img src="assets/img/photo.png" alt="photo" class="header__image">
+                </div>
+                    <div class="header__info">
+                        <h1 class="header__title">
+                            Diana Klimovich
+                        </h1>
+                        <h2 class="header__subtitle">
+                            Student in RS School
+                        </h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="main-content">
+        <div class="container">
+            <div class="main-content__container">
+                <aside class="aside">
+                    <section class="education">
+                        <h3 class="side__header">
+                            Education
+                        </h3>
+                        <div class="divider divider_yellow"></div>
+                        <div class="education__place">
+                            <div class="education__title">
+                                Belarusian State  University of Culture and Art
+                            </div>
+                        </div>
+                        <div class="divider divider_yellow"></div>
+                        <div class="education__place">
+                            <div class="education__title">
+                                Udemy
+                            </div>
+                            <div class="education__descr">
+                                <a href="https://www.udemy.com/course/webdeveloper/" class="side__link" target="_blank">
+                                    HTML/CSS
+                                </a>
+                            </div>
+                            <div class="education__descr">
+                                <a href="https://www.udemy.com/course/javascript_full/" class="side__link" target="_blank">
+                                    JavaScript (in proccess...)
+                                </a>
+                            </div>
+                        </div>
+                        <div class="divider divider_yellow"></div>
+                        <div class="education__place">
+                            <div class="education__title">
+                                RS School
+                            </div>
+                            <div class="education__descr">
+                                <a href="https://app.rs.school/certificate/nnzdbvke" class="side__link" target="_blank">
+                                    JS/FE Pre-School
+                                </a>
+                            </div>
+                            <div class="education__descr">
+                                <a href="https://rs.school/js/" class="side__link" target="_blank">
+                                    JS/FE 2022Q0
+                                </a>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="skills" id="skills">
+                        <h3 class="side__header">
+                            Skills
+                        </h3>
+                        <div class="divider divider_yellow"></div>
+                        <ul class="skills__list">
+                            <li class="skills__item skills__html">HTML</li>
+                            <li class="skills__item skills__css">CSS</li>
+                            <li class="skills__item skills__github">GitHub</li>
+
+                        </ul>
+                    </section>
+                </aside>
+                <main class="main">
+                    <section class="main__about" id="about">
+                        <h3 class="main__header">
+                            About me
+                        </h3>
+                        <div class="divider divider_black"></div>
+                        <div class="main__descr">
+                            I am 23 years old, I am a student. My goal is to gain knowledge in the field of front-end development.
+                        </div>
+                        <article class="about-strengths">
+                            <h4 class="main__subheader">
+                                My strengths:
+                            </h4>
+                            <ul class="main__list">
+                                <li class="main__item">Team playing</li>
+                                <li class="main__item">Adequacy</li>
+                                <li class="main__item">Diligence</li>
+                                <li class="main__item">Quick learner</li>
+                            </ul>
+                        </article>
+                        <article class="about-languages">
+                            <h4 class="main__subheader">
+                                Languages:
+                            </h4>
+                            <ul class="main__list">
+                                <li class="main__item">Russian - native speaker</li>
+                                <li class="main__item"> German - B1 </li>
+                            </ul>
+                        </article>
+                    </section>
+                    <section class="code-example" id="code">
+                        <h3 class="main__header">
+                            Code example
+                        </h3>
+                        <div class="divider divider_black"></div>
+                        <pre class="pre">
+                            <code class="code">
+           id="instruction" class="Instruction">
+                 id="instruction-text" class="Instruction-text">Нажмите и держите
+              id="instruction-button" class="Instruction-button">
+         function bmi(weight, height) {
+                                }
+                            </code>
+                        </pre>
+                    </section>
+                    <section class="projects" id="projects">
+                        <div class="main__header">
+                            Projects
+                        </div>
+                        <div class="divider divider_black"></div>
+                        <div class="projects__wrapper">
+                            <div class="projects__item">
+                                <a href="https://rolling-scopes-school.github.io/themrcrowley-JSFEPRESCHOOL/photofilter/" class="projects__link" target="_blank">
+                                    <img src="assets/img/photo-filter.png" alt="photo-filter" class="projects__image">
+                                </a>
+                                <div class="projects__info">
+                                    <h4 class="projects__title">
+                                        Blender
+                                    </h4>
+                                    <div class="projects__descr">
+                                        Blender project
+                                    </div>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                    </section>
+                </main>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__container">
+                <section class="contacts">
+                    <h3 class="side__header" id="contacts">
+                        Contacts
+                    </h3>
+                    <div class="divider divider_yellow"></div>
+                    <ul class="contacts__list">
+                        <li class="contacts__item">
+                            <a href="tel:+375299706355" class="side__link" target="_blank">Phone</a>
+                        </li>
+                        <li class="contacts__item">
+                            <a href="diana_klimovich@bk.com" class="side__link" target="_blank">E-mail</a>
+                        </li>
+                        <li class="contacts__item">
+                            <a href="https://t.me/dianaklimovich" class="side__link" target="_blank">Telegram</a>
+                        </li>
+                    </ul>
+                </section>
+                <div class="footer__content">
+                    <div class="footer__item">
+                        <a href="https://github.com/Diana77777" target="_blank">
+                            <img src="assets/icons/github.svg" alt="github_icon" class="footer__image">
+                        </a>
+                    </div>
+                    <div class="footer__item">
+                        <a href="https://rs.school/js/" target="_blank">
+                            <img src="assets/icons/rs_school_js.svg" alt="rs-school-logo" class="footer__image">
+                        </a>
+                    </div>
+                    <div class="footer__date">
+                        Created <br> 
+                        in 2022
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
