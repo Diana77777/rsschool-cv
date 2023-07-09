@@ -1,1 +1,1 @@
- https://Diana77777.github.io/rsschool-cv/index
+ https://Diana77777.github.io/rsschool-cv/
