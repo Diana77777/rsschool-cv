@@ -1,13 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title> 
 </head>
 <body>
-  <div class="cv-body">
-    
-  </div>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#code-example">Code-example</a></li>
+                <li><a href="#languages">Languages</a></li>
+                <li><a href="#contacts">Contacts</a></li>
+            </ul>
+        </nav>
+        <h1>My Resume</h1>
+    </header>
+    <div class="container">
+      <main>
+          <section id="about">
+              <h2>About Me</h2>
+              <img src="images/IMG_20200322_120203.jpg" alt="" style="float: left; width: 100px; margin-right: 10px;">
+              <p>My name is Diana. am 24 years old. I graduated in 2021 from the Belarusian State University of Culture and Arts the department of information technology in culture. In 2022 1 graduated with a master's degree in Project Management. At the moment i'm worlng in the Belarusian Institute of System Analvsis and information Support of Scientific and Technical Sphere as a junior reseacher.</p>
+          </section>
+
+          <section id="skills" style="margin-top: 100px;">
+              <h2>Skills</h2>
+              <ul>
+                  <li>Photoshop</li>
+                  <li>HIML&CSS (Bootstrap, SCSS, BEM)</li>
+                  <li>JavaScript (Basic)</li>
+                  <li>Figma</li>
+                  <li>Git</li>
+              </ul>
+          </section>
+
+          <section id="code-example">
+              <h2>Code Example</h2>
+              <pre><code>
+$('#small-select2-options-multiple-field').select2({
+    theme: "bootstrap-5",
+    width: $(this).data('width') ? $(this).data('width') : $(this).hasClass('w-100') ? '100%' : 'style',
+    placeholder: $(this).data('placeholder'),
+    closeOnSelect: false,
+    selectionCssClass: 'select2--small',
+    dropdownCssClass: 'select2--small',
+});
+              </code></pre>
+          </section>
+
+         
+
+          <section id="languages">
+              <h2>Languages</h2>
+              <ul>
+                 <li>Russian</li>
+                  <li>English (A1 in process)</li> 
+              </ul>
+           
+          </section>
+
+           <section id="contacts">
+              <h2>Contacts</h2>
+              <ul>
+                  <li>Phone: 375 29 970 63 55</li>
+                  <li>Email: diana_klimovich@bk.ru</li> 
+              </ul>
+          </section>
+      </main>
+    </div>
+
+    <footer>
+        <p>&copy; 2023 | <a href="https://github.com/Diana77777">GitHub</a></p>
+        <a href="https://rs.school/js/"><img src="images/rs-logo.png" alt="" style="width: 80px; margin-right: 10px;"></a>
+    </footer>
 </body>
 </html>
